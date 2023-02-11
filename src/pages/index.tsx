@@ -11,7 +11,7 @@ import {
 } from '@/container';
 
 const Home = () => (
-  <div>
+  <div className='overflow-hidden bg-black text-white'>
     <Navbar />
     <Hero />
     <About />
